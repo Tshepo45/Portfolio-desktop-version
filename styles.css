@@ -86,7 +86,19 @@ header a {
   line-height: 20px;
   color: #6070ff;
   padding-left: 10px;
-}
+  animation: coloreffect 10s;
+  }
+
+  @keyframes coloreffect {
+    from {
+      color: aqua;
+    }
+
+    to {
+      color: red;
+    }
+  }
+
 
 .P-Text {
   display: flex;
