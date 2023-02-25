@@ -27,11 +27,11 @@
 Portfolio-Desktop Version project that include a contact form and it uses different tools such Html,Css,Git and Github without additional coding.Use media queries to make sure that your website displays correctly on desktop screens.
 
 ## 🛠 Built With 
-Html Css 
+Html Css git github code cloning
 
 ## key-features
-Understand how to create UIs adaptable to different screen sizes using media queries.
-Understand how to parse a Figma design to create a UI.
+To understand how to create UIs adaptable to different screen sizes using media queries.
+To understand how to parse a Figma design to create a UI.
 
 
 ## 💻 Getting Started 
