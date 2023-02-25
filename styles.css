@@ -489,7 +489,7 @@ hr {
 
 @media (min-width: 768px) {
   .container1 {
-    height: 916px;
+    height: 916px,
   }
   
   nav {
