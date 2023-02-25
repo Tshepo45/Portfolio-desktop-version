@@ -24,7 +24,7 @@
 - [📝 License](#license)
 
 # 📖<a name="Portfolio Mobile Finish"></a>
-Portfolio-Desktop Version project that include a contact form and it uses different tools such Html,Css,Git and Github without additional coding.Use media queries to make sure that your website displays correctly on desktop screens.
+Portfolio Desktop Version project that include a contact form and it uses different tools such Html,Css,Git and Github without additional coding.Use media queries to make sure that your website displays correctly on desktop screens.
 
 ## 🛠 Built With 
 Html Css git github code cloning
