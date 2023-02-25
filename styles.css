@@ -287,6 +287,36 @@ ul > li {
   border: 1px solid #c1c7d0;
 }
 
+.btn-n {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 115px 0 15px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  font-weight: 500;
+  transition: 0.7s;
+}
+
+.btn-n:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.btn-n:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.btn-in:disabled {
+  background-color: #fff;
+  border: 1px solid #c1c7d0;
+}
+
 .about {
   display: flex;
   flex-direction: column;
@@ -314,7 +344,43 @@ ul > li {
 .user-tool-d {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+
+.user-tool-d img {
+  padding-left: 50%x;
+ 
+}
+
+.skills img {
+  padding-left: 10%;
+}
+
+.languages {
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.frameworks {
+  display: flex;
+  align-items: center;
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
 }
 
 .user-tool > div {
@@ -496,6 +562,11 @@ hr {
     height: 72px;
   }
 
+  img {
+    display: none;
+    background-color: #172b4d;
+  }
+
   .logo {
     margin-left: 2em;
   }
@@ -526,24 +597,30 @@ hr {
   }
 
   .project1 {
+    position: absolute;
+    margin-top: -49px;
     flex-direction: row;
     column-gap: 1rem;
     width: 90%;
   }
 
   .project2 {
+    position: absolute;
     flex-direction: row-reverse;
     column-gap: 1rem;
     width: 90%;
   }
 
   .project3 {
+    position: absolute;
+    margin-top: 49px;
     flex-direction: row;
     column-gap: 1rem;
     width: 90%;
   }
 
   .project4 {
+    margin-top: 99px;
     flex-direction: row-reverse;
     column-gap: 1rem;
     width: 90%;
@@ -584,24 +661,35 @@ hr {
     padding: 0 8em 0 8em;
     column-gap: 2em;
   }
-
+  
   .user-tool {
     width: 60%;
+    padding-left: 75px;
   }
-
+  
   .user-tool-d {
     width: 60%;
     padding-top: 20px;
     margin-bottom: 20px;
   }
-
+  
+  .user-tool-d img {
+    padding-left: 194px;
+  }
+  
+  .skills img {
+    padding-left: 269px;
+  }
+  
   .me {
-    width: 70%;
+    width: 40%;
+    padding-right: 85px;
   }
 
   .me p {
-    width: 447px;
+    width: 407px;
     padding-bottom: 15px;
+    
   }
 
   .me h2 {
@@ -611,7 +699,7 @@ hr {
   .tool-list {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 60%;
     padding-top: 38px;
   }
 
@@ -623,11 +711,7 @@ hr {
     margin: 0 1em 1em 0;
     width: 120px;
   }
-
-  .skills {
-    padding-top: 20px;
-  }
-
+  
   .contact-form p {
     width: 47%;
   }
@@ -655,7 +739,11 @@ hr {
   #message {
     padding-left: 20px;
   }
-
+  
+  .btn-n {
+    padding-right: 63px;
+  }
+  
   .main-icons {
     display: block;
     width: 55%;
