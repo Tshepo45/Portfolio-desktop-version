@@ -272,6 +272,7 @@ ul > li {
   color: #396df2;
   font-weight: 500;
   transition: 0.7s;
+  transform: scale(0.5);
 }
 
 .btn-in:hover {
