@@ -154,7 +154,7 @@ ul > li {
   grid-template-rows: repeat(3, auto);
   width: 100%;
   list-style: none;
-  padding: 8rem 1.6rem ;
+  padding: 8rem 1.6rem;
   row-gap: 3em;
   justify-content: center;
 }
@@ -593,18 +593,18 @@ hr {
     width: 60%;
     padding-top: 20px;
     margin-bottom: 20px;
- }
+  }
  
  .me {
     width: 70%;
- }
+  }
  
  .me p {
     width: 447px;
     padding-bottom: 15px;
- }
- 
- .me h2 {
+  }
+  
+  .me h2 {
     padding-bottom: 15px;
   }
   
