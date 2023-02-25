@@ -553,13 +553,12 @@ hr {
     height: 916px;
   }
 
-  nav {
-    height: 72px;
+  .img {
+    display: none;
   }
 
-  img {
-    display: none;
-    background-color: #172b4d;
+  nav {
+    height: 72px;
   }
 
   .logo {
