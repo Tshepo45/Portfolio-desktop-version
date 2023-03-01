@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 html {
@@ -20,7 +21,6 @@ body {
   border: 0;
   text-decoration: none;
   list-style: none;
-  overflow-x: hidden !important;
 }
 
 .container1 {
@@ -34,11 +34,11 @@ body {
   border-bottom-left-radius: 5rem;
   border-top-left-radius: 2rem;
   display: flex;
+  margin-left: 10px;
   width: 100%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  overflow-x: hidden !important;
 }
 
 nav {
@@ -168,7 +168,6 @@ ul > li {
   padding: 8rem 1.6rem;
   row-gap: 1em;
   justify-content: center;
-  overflow-x: hidden !important;
 }
 
 .project1 {
@@ -177,12 +176,11 @@ ul > li {
   position: relative;
   width: 90%;
   border: 1px solid #dfe1e6;
-  padding-left: 16px;
+  padding: 16px;
   border-radius: 20px;
   background-color: #fff;
-  margin-left: 8px;
-  margin-top: 10px;
-  overflow-x: hidden !important;
+  margin-left: -13px;
+  margin-top: 16px;
 }
 
 .project2 {
@@ -191,12 +189,11 @@ ul > li {
   position: relative;
   width: 90%;
   margin-top: 90px;
-  margin-left: 8px;
+  margin-left: -13px;
   padding: 16px;
   border: 1px solid #dfe1e6;
   border-radius: 20px;
   background-color: #fff;
-  overflow-x: hidden !important;
 }
 
 .project3 {
@@ -204,28 +201,26 @@ ul > li {
   flex-direction: column;
   position: relative;
   width: 90%;
-  margin-left: 8px;
+  margin-left: -13px;
   margin-top: 70px;
   padding: 16px;
   border: 1px solid #dfe1e6;
   border-radius: 20px;
   background-color: #fff;
-  overflow-x: hidden !important;
 }
 
 .project4 {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 90%;
-  margin-left: 8px;
+  width: 95%;
+  margin-left: -13px;
   margin-bottom: 123px;
   margin-top: 50px;
   padding: 16px;
   border: 1px solid #dfe1e6;
   border-radius: 20px;
   background-color: #fff;
-  overflow-x: hidden !important;
 }
 
 .pager-head {
@@ -323,7 +318,6 @@ ul > li {
   padding: 100px 24px;
   background-color: #fff;
   border-top-right-radius: 5em;
-  overflow-x: hidden !important;
 }
 
 .about h2 {
@@ -404,6 +398,10 @@ ul > li {
   padding: 10px;
 }
 
+.user-tool-d > img {
+  padding-left: 149px;
+}
+
 .tool-list > li {
   display: flex;
   align-items: center;
@@ -475,7 +473,6 @@ hr {
   justify-content: center;
   align-items: center;
   border-top-left-radius: 5em;
-  overflow-x: hidden !important;
 }
 
 .responsive-form {
@@ -484,19 +481,14 @@ hr {
   max-width: 447px;
 }
 
-.li-form {
-  margin: 10px 24px;
-  text-align: left;
-  list-style: none;
-}
-
 #name_form,
 #message,
 #email_form {
   padding: 15px 15px 15px;
   border-radius: 8px;
   margin-bottom: -13px;
-  width: 100%;
+  margin-left: 16px;
+  width: 82%;
   border: none;
   color: #172b4d;
   font-family: 'poppins', sans-serif;
@@ -560,7 +552,6 @@ hr {
     height: 916px;
     width: 100%; 
     background-size: 100%;
-    overflow-x: hidden !important;
   }
   
   nav {
@@ -573,6 +564,7 @@ hr {
   
   .logo {
     margin-left: 2em;
+    width: 29%;
    }
   
   .mobile-icons {
@@ -581,7 +573,7 @@ hr {
   
   .home-icons {
     display: flex;
-    padding-left: 36%;
+    padding-left: 46%;
    }
   
   .P-Text {
@@ -594,25 +586,29 @@ hr {
     flex-direction: row;
     column-gap: 1rem;
     width: 90%;
+    margin-left: 0%;
    }
   
   .project2 {
     flex-direction: row-reverse;
     column-gap: 1rem;
     width: 90%;
+    margin-left: 0%;
    }
   
   .project3 {
     flex-direction: row;
     column-gap: 1rem;
     width: 90%;
-   }
+    margin-left: 0%;
+  }
   
   .project4 {
     flex-direction: row-reverse;
     column-gap: 1rem;
     width: 90%;
-   }
+    margin-left: 0%;
+  }
   
   .web-icons{
     width: 394px;
@@ -648,34 +644,34 @@ hr {
     align-items: center;
     padding: 0 8em 0 8em;
     column-gap: 2em;
-    width: 70%;
-    overflow-x: hidden !important;
-  }
+    width: 100%;
+   }
   
   .user-tool {
     width: 40%;
-   }
+    margin-left: -72px;
+  }
   
   .user-tool-d {
-    width: 60%;
-    padding-top: 20px;
+   padding-top: 20px;
     margin-bottom: 20px;
-   }
+  }
 
    .user-tool-d > img {
-    padding-left: 149px;
+    padding-left: 119px;
   }
 
   .frameworks > .user-tool-d > img {
-    padding-left: 149px;
+    padding-left: 101px;
   }
   
   .skills > .user-tool-d > img {
-    padding-left: 221px;
+    padding-left: 175px;
   }
-  
+
   .me {
     width: 60%;
+    margin-left: -143px;
    }
   
   .me p {
@@ -705,7 +701,7 @@ hr {
   
   .skills {
     padding-top: 20px;
-   }
+  }
 
   .contact-form p {
     width: 47%;
@@ -739,9 +735,13 @@ hr {
    }
 
    .btn-n {
-    margin-left: 173px;
+    margin-left: 177px;
    }
-  
+   
+   .shape {
+    display: none;
+   }
+
   .main-icons {
     display: block;
     width: 55%;
@@ -749,4 +749,4 @@ hr {
     margin: 10px 0 10px 10px;
    }
   }
- 
+  
