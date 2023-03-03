@@ -297,7 +297,7 @@ ul > li {
   line-height: 24px;
   color: #396df2;
   font-weight: 500;
-  transition: 0.7s;
+  transform: rotate(0);
 }
 
 .btn-in:hover {
