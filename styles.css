@@ -298,6 +298,7 @@ ul > li {
   color: #396df2;
   font-weight: 500;
   transition-rotate: 0.7s;
+  tranform-translate:0.4s;
 }
 
 .btn-in:hover {
