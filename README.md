@@ -37,6 +37,8 @@ Html Css git github code cloning
 To understand how to create UIs adaptable to different screen sizes using media queries.
 To understand how to parse a Figma design to create a UI.
 
+## Live Demo
+https://tshepo45.github.io/
 
 ## 💻 Getting Started 
 
