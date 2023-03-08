@@ -53,7 +53,7 @@ nav {
 }
 
 nav .img {
-  padding-left: 210px;
+  padding-left: 240px;
 }
 
 .home-icons {
@@ -230,6 +230,7 @@ ul > li {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  overflow-y: hidden;
 }
 
 .program-details {
@@ -243,6 +244,7 @@ ul > li {
   font-weight: 800;
   line-height: 16px;
   color: #344563;
+  overflow-y: hidden;
 }
 
 .ul-details {
@@ -458,7 +460,7 @@ hr {
   line-height: 28px;
   letter-spacing: 0;
   text-align: center;
-  color: #ebebff;
+  color: #000000;
   
 }
 
@@ -529,8 +531,10 @@ hr {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  margin-left: 54px;
-  padding: 0 10px;
+  margin: 12px 53px;
+  padding-top: 0%;
+  padding-left: 10px;
+  left: 44px;
   width: 120px;
   height: 44px;
   transition: 0.7s;
@@ -613,7 +617,7 @@ hr {
     column-gap: 1rem;
     width: 90%;
     margin-left: 0%;
-   }
+  }
   
   .project3 {
     flex-direction: row;
@@ -724,7 +728,7 @@ hr {
 
   .contact-form p {
     width: 47%;
-  }
+   }
   
   .respo-icons {
     display: none;
@@ -736,9 +740,10 @@ hr {
   
   .ul-form {
     list-style: none;
+    
    }
   
-  #name_form {
+   #name_form {
     padding-left: 20px;
     border-radius: 0%;
    }
