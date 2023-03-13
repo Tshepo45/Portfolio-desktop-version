@@ -434,10 +434,6 @@ hr {
   width: 100%;
 }
 
-.contact-form {
-  background-color: #fff;
-}
-
 .contact-form h2 {
   margin: 103px 24px 10px 24px;
   color: #fff;
@@ -460,8 +456,7 @@ hr {
   line-height: 28px;
   letter-spacing: 0;
   text-align: center;
-  color: #ebebff;
-  
+  color: #000000;
 }
 
 .contact-form-holder {
@@ -728,6 +723,7 @@ hr {
 
   .contact-form p {
     width: 47%;
+    color: #ebebff;
    }
   
   .respo-icons {
