@@ -25,10 +25,10 @@
 # 📖<a name="Portfolio Desktop Version"></a>
 
 ## Project Title
-Portfolio Desktop Version
+Portfolio - mobile menu
 
 ## Project Description
-Portfolio Desktop Version project that include a contact form and it uses different tools such Html,Css,Git and Github without additional coding.Use media queries to make sure that your website displays correctly on desktop screens.
+Portfolio - mobile menu project that include a contact form and it uses different tools such Html,Css,Git and Github with additional JavaScript to manipulate DOM elements.Implemented the mobile menu using JavaScript knowledge.
 
 ## 🛠 Built With 
 Html Css git github code cloning
