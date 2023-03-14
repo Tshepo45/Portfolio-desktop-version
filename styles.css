@@ -41,11 +41,6 @@ body {
   align-items: center;
 }
 
-header{
-  display: flex;
-  background-color: #396df2;
-}
-
 .navbar {
   display: flex;
   align-items: center;
@@ -112,7 +107,7 @@ header a {
 }
 
 header {
-  background: blue;
+  background: white;
   position: fixed;
   z-index: 10;
 }
