@@ -27,7 +27,7 @@ body {
   position: relative;
   height: 718px;
   background-image: url(image/header-shapes-mobile.png);
-  background-color: white;
+  background-color: whit;
   background-size: 100%;
   background-position-y: 42px;
   background-repeat: no-repeat;
@@ -102,7 +102,7 @@ header {
    flex-direction: column;
    text-align: center;
    transition: 0.3s;
- }
+  }
 
  .navMenu.active {
   left: 0;
