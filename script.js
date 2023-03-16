@@ -241,11 +241,11 @@ see.forEach((btn) => (btn.addEventListener('click', () => {
   
   `;
   main.appendChild(popup);
-  body.appendChild(main);
+  body.appendChild(body);
 
   const close = document.querySelector('.fa-times');
   close.addEventListener('click', () => {
-    body.removeChild(main);
+    body.removeChild(body);
   });
 })));
 
