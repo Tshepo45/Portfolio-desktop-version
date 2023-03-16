@@ -254,11 +254,11 @@ see.forEach((btn) => (btn.addEventListener('click', () => {
   
   `;
   main.appendChild(popup);
-  body.appendChild(main);
+  body.appendChild(body);
 
   const close = document.querySelector('.fa-times');
   close.addEventListener('click', () => {
-    body.removeChild(main);
+    body.removeChild(body);
   });
 })));
 
@@ -307,11 +307,11 @@ open.forEach((desktop) => (desktop.addEventListener('click', () => {
   
   `;
   mains.appendChild(dPopup);
-  body.appendChild(mains);
+  body.appendChild(body);
 
   const close = document.querySelector('.fa-times');
   close.addEventListener('click', () => {
-    body.removeChild(mains);
+    body.removeChild(body);
   });
 })
 ));
