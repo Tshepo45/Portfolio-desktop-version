@@ -28,7 +28,11 @@
 Portfolio - mobile menu
 
 ## Project Description
+<<<<<<< HEAD
 Portfolio popup project that include a contact form and it uses different tools such Html,Css,Git and Github with additional JavaScript to manipulate DOM elements.Implemented the popup menu using JavaScript and DOM manipulation.
+=======
+Portfolio - popup project that include a contact form and it uses different tools such Html,Css,Git and Github with additional JavaScript to manipulate DOM elements.Implemented the popup menu using JavaScript and DOM manipulation.
+>>>>>>> master
 
 ## 🛠 Built With 
 Html Css git github code cloning
@@ -98,3 +102,5 @@ I would like to thank my coding partners.
 This project is [MIT](/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+

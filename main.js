@@ -170,4 +170,8 @@ function booton() {
     worksbox.style.display = 'none';
   }
 }
+<<<<<<< HEAD
 worksClose.addEventListener('click', booton);
+=======
+worksClose.addEventListener('click', booton);
+>>>>>>> master
