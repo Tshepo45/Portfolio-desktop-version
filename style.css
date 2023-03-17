@@ -198,7 +198,7 @@ header {
 
 .hone {
   color: #172b4d;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 32px;
   font-family: 'Poppins', sans-serif;
 }
@@ -243,7 +243,6 @@ header {
   justify-content: center;
   margin-top: 9px;
   color: rgba(193, 199, 208, 1);
-  background-color: 10px;
 }
 
 .para {
@@ -429,7 +428,7 @@ form {
 }
 
 .sectfour {
-  background-image: ("../assets/Images/formpic.png");
+  background-image: ("./assets/Images/formpic.png");
   background-position: right;
   background-repeat: no-repeat;
   height: auto;

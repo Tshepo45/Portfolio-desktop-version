@@ -31,8 +31,8 @@ const works = [
     workImage: 'assets/Images/numberone.png',
     workpara: 'Lorem Ipsum is simply dummy text of the printing has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     workcodes: ['Css', 'Html', 'Javascript'],
-    workLive: 'https://citec-47.github.io/Desk-version/',
-    workSource: 'https://github.com/citec-47/Desk-version/tree/pop-branch',
+    workLive: 'https://tshepo45.github.io/',
+    workSource: 'https://github.com/Tshepo45/Portfolio-desktop-version.git',
     kSource: '<i class="fa-brands fa-github"></i>',
     Icons: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
     live: 'See Live',
@@ -171,41 +171,3 @@ function booton() {
   }
 }
 worksClose.addEventListener('click', booton);
-
-// form validation//
-
-const Namet = document.querySelector('.names');
-const Emailst = document.querySelector('.mails');
-const submiter = document.querySelectorAll('.submit');
-const prevs = document.getElementById('.datap');
-const reservtext = document.getElementById('error');
-
-const clientData = {};
-
-function EmailVerify(event) {
-  const Emailcheck = /[A-Z]/.test(Emailst.value);
-  if (Emailcheck === true) {
-    reservtext.innerText = 'please all letters should be lowercase only';
-    event.preventDefault();
-  } else {
-    reservtext.innerText = '';
-    clientData.name = Namet.value;
-    clientData.email = Emailst.value;
-    clientData.message = prevs.value;
-  }
-}
-
-submiter[0].addEventListener('click', EmailVerify);
-
-const costumertData = JSON.parse(localStorage.getItem('data'));
-if (costumertData != null) {
-  Emailst.value = costumertData[0].email;
-  Namet.value = costumertData[0].name;
-  prevs.value = costumertData[0].message;
-}
-console.log(costumertData);
-submiter[0].addEventListener('click', () => {
-  const datas = [];
-  datas.push({ name: Namet.value, email: Emailst.value });
-  localStorage.setItem('data', JSON.stringify(datas));
-});
