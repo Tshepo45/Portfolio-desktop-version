@@ -11,6 +11,7 @@ function mobileMenu() {
 }
 
 statusbar.addEventListener('click', mobileMenu);
+
 // close menc
 
 function menuClose() {
@@ -31,8 +32,8 @@ const works = [
     workImage: 'assets/Images/numberone.png',
     workpara: 'Lorem Ipsum is simply dummy text of the printing has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     workcodes: ['Css', 'Html', 'Javascript'],
-    workLive: 'https://tshepo45.github.io/',
-    workSource: 'https://github.com/Tshepo45/Portfolio-desktop-version.git',
+    workLive:  'https://tshepo45.github.io/',
+    workSource: ' https://github.com/Tshepo45/Portfolio-desktop-version.git',
     kSource: '<i class="fa-brands fa-github"></i>',
     Icons: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
     live: 'See Live',
@@ -135,6 +136,7 @@ unlt.appendChild(unlt4);
 const Button = document.createElement('div');
 Button.classList = 'booton';
 workin.appendChild(Button);
+Button.style.marginLeft ='-38px';
 
 const link = document.createElement('a');
 link.classList = 'buttout';

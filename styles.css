@@ -9,7 +9,7 @@ body {
   width: 100%;
   height: auto;
   background: #efefef;
-  font-family: 'Poppins', sans-serif;
+  
 }
 
 .main-one {
@@ -29,8 +29,11 @@ header {
   z-index: 1;
 }
 
-.mylogo {
+.pry-color {
   font-family: 'Poppins', sans-serif;
+}
+
+.mylogo {
   font-size: 22px;
   color: #6070ff;
   font-weight: 700;
@@ -109,7 +112,6 @@ header {
   color: #7f8cff;
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
 }
 
 .order ul li {
@@ -157,7 +159,7 @@ header {
 .cardern {
   width: auto;
   height: auto;
-  background: #fff;
+  background:#fff;
   border-radius: 16px;
   border: 1px solid #def1e6;
   margin: 1rem;
@@ -170,7 +172,7 @@ header {
 .cardernan {
   width: auto;
   height: auto;
-  background: #fff;
+  background-color: #fff;
   border-radius: 16px;
   border: 1px solid #def1e6;
   padding: 16px;
@@ -200,7 +202,6 @@ header {
   color: #172b4d;
   font-weight: 700;
   font-size: 32px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .one {
@@ -232,7 +233,6 @@ header {
 }
 
 .list {
-  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 400;
   width: 8px;
@@ -249,7 +249,7 @@ header {
   width: 295px;
   font-weight: 400;
   font-size: 15px;
-  font-family: 'Poppins', sans-serif;
+
 }
 
 .language {
@@ -260,7 +260,6 @@ header {
   color: #6070ff;
   background: #ebebff;
   padding: 5px 8px;
-  font-family: 'Poppins', sans-serif;
   border-radius: 5px;
 }
 
@@ -268,7 +267,6 @@ header {
   font-size: 17px;
   font-weight: 500;
   width: 100px;
-  font-family: 'Poppins', sans-serif;
   padding: 10px;
   border: 1px solid #396df2;
   border-radius: 8px;
@@ -320,7 +318,6 @@ header {
   font-weight: 400;
   font-size: 16px;
   margin: 0 20px;
-  font-family: 'Poppins', sans-serif;
   color: #344563;
 }
 
@@ -335,7 +332,6 @@ header {
   color: #7f8cff;
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
 }
 
 .extra i {
@@ -362,7 +358,6 @@ header {
   line-height: 50px;
   margin: 0 0 0 20px;
   font-size: 15px;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
 
@@ -439,7 +434,6 @@ form {
 }
 
 .hones {
-  font-family: 'Poppins', sans-serif;
   font-size: 35px;
   color: #fff;
   text-align: center;
@@ -448,7 +442,6 @@ form {
 }
 
 .pras {
-  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #fff;
@@ -467,7 +460,6 @@ form {
   background: #fff;
   margin: 10px 0;
   border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
 }
 
 #msg {
@@ -478,15 +470,13 @@ form {
   background: #fff;
   margin: 10px 0;
   border-radius: 5px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .submit {
   padding: 12px 16px;
   color: #6070ff;
-  background: #fff;
+  background-color: #6070ff;
   width: 150px;
-  font-family: 'Poppins', sans-serif;
   border-radius: 5px;
   outline: none;
   border: 1px solid #7f8cff;
@@ -494,7 +484,7 @@ form {
 }
 
 .submit:hover {
-  background: #6070ff;
+  background-color: #6070ff;
   color: #fff;
 }
 
@@ -564,7 +554,6 @@ form {
   display: flex;
   flex-direction: column;
   padding: 16px;
-  font-family: 'Poppins', sans-serif;
   box-shadow: 10px 8px 119px 200px rgba(0, 0, 0, 0.45);
   -webkit-box-shadow: 10px 8px 119px 200px rgba(0, 0, 0, 0.45);
   -moz-box-shadow: 10px 8px 119px 200px rgba(0, 0, 0, 0.45);
