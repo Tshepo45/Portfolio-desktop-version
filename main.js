@@ -26,6 +26,7 @@ closeMenu.addEventListener('click', menuClose);
 
 const works = [
   {
+
     title: 'Tonic',
     worktype: { org: 'CANOPY', type: 'Back End Dev', year: '2017' },
     workImage: 'assets/Images/numberone.png',
@@ -34,7 +35,7 @@ const works = [
     workLive: 'https://tshepo45.github.io/',
     workSource: 'https://github.com/Tshepo45/Portfolio-desktop-version.git',
     kSource: '<i class="fa-brands fa-github"></i>',
-    liveIcons: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
+    Icons: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
     live: 'See Live',
     source: 'see-source',
   },
@@ -138,7 +139,7 @@ workin.appendChild(Button);
 
 const link = document.createElement('a');
 link.classList = 'buttout';
-link.innerHTML = `${works[0].live} ${works[0].liveIcons} via`;
+link.innerHTML = `${works[0].live} ${works[0].Icons} via`;
 link.href = `${works[0].workLive}`;
 Button.appendChild(link);
 
