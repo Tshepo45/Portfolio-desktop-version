@@ -11,6 +11,7 @@ function mobileMenu() {
 }
 
 statusbar.addEventListener('click', mobileMenu);
+
 // close menc
 
 function menuClose() {
@@ -32,7 +33,7 @@ const works = [
     workpara: 'Lorem Ipsum is simply dummy text of the printing has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     workcodes: ['Css', 'Html', 'Javascript'],
     workLive: 'https://tshepo45.github.io/',
-    workSource: 'https://github.com/Tshepo45/Portfolio-desktop-version.git',
+    workSource: ' https://github.com/Tshepo45/Portfolio-desktop-version.git',
     kSource: '<i class="fa-brands fa-github"></i>',
     Icons: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
     live: 'See Live',
@@ -135,6 +136,7 @@ unlt.appendChild(unlt4);
 const Button = document.createElement('div');
 Button.classList = 'booton';
 workin.appendChild(Button);
+Button.style.marginLeft = '-38px';
 
 const link = document.createElement('a');
 link.classList = 'buttout';
@@ -171,3 +173,49 @@ function booton() {
   }
 }
 worksClose.addEventListener('click', booton);
+
+const grid = document.getElementById('projects-grid');
+function createProjectsContainer() {
+  for (let i = 1; i < 4; i += 1) {
+    const projectContainer = document.createElement('div');
+    projectContainer.setAttribute('class', 'mini-projects');
+    projectContainer.setAttribute('id', `mini-project${i}`);
+    grid.appendChild(projectContainer);
+  }
+}
+createProjectsContainer();
+
+const workSectionDiv = document.querySelectorAll('.mini-projects');
+
+function createElements(cards) {
+  cards.innerHTML = `
+  <img src="./assets/Images/numbertwo.png" alt="image">
+  <div class="table">
+    <h2 class="hone">Uber Navigation</h2>
+    <ul>
+        <li><h3>CANOPY</h3></li>
+        <li class="list"><img  src="./assets/Images/ball.png" alt="pic">
+         <li>Back End Dev</li>
+          <li class="list"><img  src="./assets/Images/ball.png" alt="pic">
+         <li>2015</li>
+     </ul>
+    <p class="paraone">A smart assistant to make driving more safe, efficient,
+         and fun by unlocking your most expensive computer: your car.</p>
+        <ul>
+            <li class="language">Css</li>
+            <li class="language">Html</li>
+            <li class="language">Javascript</li>
+        </ul>
+     <div class="button"><a href="#" class="color">See Project</a></div>
+   </div>`;
+}
+
+workSectionDiv.forEach(createElements);
+
+const buttons = [...document.querySelectorAll('.project-btn')];
+
+for (let i = 0; i < buttons.length; i += 1) {
+  buttons[i].addEventListener('click', () => {
+    document.body.classList.toggle('no-scroll');
+  });
+}
