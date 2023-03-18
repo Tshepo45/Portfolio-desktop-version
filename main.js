@@ -57,7 +57,7 @@ const works = [
     workpara: 'Lorem Ipsum is simply dummy text of the printing has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry',
     workcodes: ['Css', 'Html', 'Javascript'],
   },
-  {
+  {  
     image: '/assets/Images/exit.png',
   },
 ];
