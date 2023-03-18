@@ -23,14 +23,6 @@ function menuClose() {
 }
 closeMenu.addEventListener('click', menuClose);
 
-function resizeWindow() {
-  if (window.innerWidth > 768) {
-    resetmobileMenu();
-  }
-}
-
-window.addEventListener('resize', resizeWindow);
-
 // calling html//
 
 const works = [
@@ -195,9 +187,8 @@ createProjectsContainer();
 
 const workSectionDiv = document.querySelectorAll('.mini-projects');
 
-let counter = 0;
-function createElements(project) {
-  project.innerHTML = `
+function createElements(cards) {
+  cards.innerHTML = `
   <img src="./assets/Images/numbertwo.png" alt="image">
   <div class="table">
     <h2 class="hone">Uber Navigation</h2>
@@ -217,7 +208,6 @@ function createElements(project) {
         </ul>
      <div class="button"><a href="#" class="color">See Project</a></div>
    </div>`;
-  counter += 1;
 }
 
 workSectionDiv.forEach(createElements);
@@ -226,8 +216,6 @@ const buttons = [...document.querySelectorAll('.project-btn')];
 
 for (let i = 0; i < buttons.length; i += 1) {
   buttons[i].addEventListener('click', () => {
-    createDiv(i);
     document.body.classList.toggle('no-scroll');
-    blurProjects.forEach((project) => project.classList.toggle('blur'));
   });
 }
