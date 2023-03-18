@@ -176,7 +176,7 @@ worksClose.addEventListener('click', booton);
 
 const grid = document.getElementById('projects-grid');
 function createProjectsContainer() {
-  for (let i = 1; i < projects.length; i += 1) {
+  for (let i = 1; i < cards.length; i += 1) {
     const projectContainer = document.createElement('div');
     projectContainer.setAttribute('class', 'mini-projects');
     projectContainer.setAttribute('id', `mini-project${i}`);
