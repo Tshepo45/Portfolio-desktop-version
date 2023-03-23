@@ -25,10 +25,10 @@
 # 📖<a name="Portfolio Desktop Version"></a>
 
 ## Project Title
-Portfolio - mobile menu
+Portfolio Desktop Version
 
 ## Project Description
-Portfolio - popup project that include a contact form and it uses different tools such Html,Css,Git and Github with additional JavaScript to manipulate DOM elements.Implemented the popup menu using JavaScript and DOM manipulation.
+Portfolio Desktop Version that includes a popup menu ,a contact form and it uses different tools such Html,Css,Git and Github with additional JavaScript to manipulate DOM elements.Implemented the popup menu using JavaScript and DOM manipulation.
 
 ## 🛠 Built With 
 Html Css git github code cloning
