@@ -924,7 +924,7 @@ input:focus:invalid {
 
   .inputs{
     position: relative;
-    margin-left: -20px;
+    margin-left: -21px;
     width: 100vw;
     line-height: 1.5rem;
   }
