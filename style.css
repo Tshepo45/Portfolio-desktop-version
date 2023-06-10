@@ -99,10 +99,11 @@ a {
 
 section#container1 {
   background-color: #1c1a19;
-  background-image: url("images/illustration-header-mobile.png");
+  background-image: url("images/Illustration-header5.png");
   background-repeat: no-repeat;
   background-position: 100% 130%;
   padding: 0 1.2rem 6rem 1.2rem;
+  background-position-y: 0.2rem;
 }
 
 #P-Text {
@@ -291,7 +292,7 @@ h2 {
 
 #projects {
   padding: 0 1.5rem 6rem 1.5rem;
-  position: relative;
+  
 }
 
 #projects-grid {
@@ -675,6 +676,7 @@ input:focus:invalid {
  
   #social-media > ul{
      position: absolute;
+     width: 403px;
     margin-top: -26rem;
     margin-left: -5rem;
     display: flex;
