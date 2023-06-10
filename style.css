@@ -21,6 +21,7 @@ header {
 .myLogo {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
+  font-style: bold;
   color: #ffffff;
 }
 
@@ -142,68 +143,6 @@ h2 {
 
 /* Projects section */
 
-
-.mobile-btn {
-  top: 92%;
-  left: 5%;
-}
-
-.mobile-title {
-  font-size: 1.8rem;
-  text-align: left;
-  display: block;
-  padding: 0;
-}
-
-.mobile-languages {
-  margin: 1rem 0;
-}
-
-.mobile-languages > div {
-  font-size: 0.8rem;
-}
-
-.mobile-width {
-  width: 90vw;
-  height: 95vh;
-  padding: 1rem;
-}
-
-#projects {
-  padding: 0 1.5rem 6rem 1.5rem;
-  position: relative;
-}
-
-#projects-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-}
-
-#pager-head1 {
-  color: rgba(9, 30, 66, 1);
-  font-family: "Crete Round", sans-serif;
-  font-weight: 400;
-  font-size: 2.3rem;
-  text-align: center;
-  margin: 6rem 0 3rem 0;
-}
-
-#proj-image {
-  display: flex;
-  justify-content: center;
-}
-
-#proj-1 {
-  display: block;
-  width: 70vw;
-}
-
-#project-contents {
-  padding: 0 1rem 0 0.5rem;
-}
-
-
 .popup {
   width: 85vw;
   height: 92vh;
@@ -323,6 +262,68 @@ h2 {
   margin-top: 1rem;
 }
 
+.mobile-btn {
+  top: 92%;
+  left: 5%;
+}
+
+.mobile-title {
+  font-size: 1.8rem;
+  text-align: left;
+  display: block;
+  padding: 0;
+}
+
+.mobile-languages {
+  margin: 1rem 0;
+}
+
+.mobile-languages > div {
+  font-size: 0.8rem;
+}
+
+.mobile-width {
+  width: 90vw;
+  height: 95vh;
+  padding: 1rem;
+}
+
+#projects {
+  padding: 0 1.5rem 6rem 1.5rem;
+  position: relative;
+}
+
+#projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  
+}
+
+#pager-head1 {
+  color: #1c1a19;
+  font-family: "Crete Round", sans-serif;
+  font-weight: normal;
+  font-size: 2.3rem;
+  text-align: center;
+  margin: 6rem 0 3rem 0;
+  border-bottom: 1px solid #212121;
+}
+
+#proj-image {
+  display: flex;
+  justify-content: center;
+}
+
+#proj-1 {
+  display: block;
+  width: 70vw;
+}
+
+#project-contents {
+  padding: 0 1rem 0 0.5rem;
+}
+
 #h3-title {
   font-family: "Crete Round", sans-serif;
   color: #091e42;
@@ -437,7 +438,6 @@ button#resume {
 }
 
 #about-content {
-  background-image: url("images/illustration-about-me-mobile.png");
   background-repeat: no-repeat;
   background-position: bottom right;
   border-bottom: 1px solid #fff;
@@ -455,7 +455,8 @@ button#resume {
   font-family: "Crete Round", sans-serif;
   text-align: center;
   font-size: 4.2rem;
-  color:rgba(255, 107, 0, 1)
+  color:rgba(255, 107, 0, 1);
+  
 }
 
 #languages-list,
@@ -483,8 +484,8 @@ div.skills-title {
 }
 
 #about-me-p {
-  color: rgba(244, 245, 247, 1);
-  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -510,16 +511,30 @@ div.skills-title {
 }
 
 #form-container fieldset {
-  margin-top: 3rem;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  width:100%;
   border: none;
+  margin-top: 24px;
+  
+}
+
+.input1 {
+  border-bottom: 1px solid #dbd8d7;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-right: 4px;
+  width: 100%;
+  margin-top: 44px;
 }
 
 .inputs {
+  margin-left: -22px;
   padding: 1.2rem;
-  width: 80vw;
   border: none;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -532,6 +547,7 @@ div.skills-title {
   border: none;
   padding: 1.2rem;
   margin-bottom: 1.2rem;
+  width: 100%;
 }
 
 form {
@@ -540,6 +556,10 @@ form {
   align-items: center;
   border-bottom: 1px solid #dfe1e6;
   padding: 0 2rem 2rem 2rem;
+}
+
+.input2{
+  display: none;
 }
 
 input:valid {
@@ -559,6 +579,7 @@ input:focus:invalid {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  margin-left: 1.6rem;
 }
 
 .small.hidden {
@@ -598,17 +619,24 @@ input:focus:invalid {
   }
 
   nav {
-    margin: 0 10rem;
+   margin: 0 5rem;
   }
 
   nav > ul {
     display: flex;
     gap: 5rem;
+      
   }
 
-  nav > ul > li {
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
     font-size: 1rem;
     font-weight: 600;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;   
   }
 
   nav > span {
@@ -658,7 +686,7 @@ input:focus:invalid {
   }
 
   .right {
-    margin-right: 70px;
+    margin-right: 70;
   }
 
   #projects {
@@ -680,6 +708,7 @@ input:focus:invalid {
   }
 
   #pager-head1 {
+    border-bottom: none;
     margin-top: 8px;
     width: 63%;
     font-size: 2.1rem;
@@ -693,9 +722,13 @@ input:focus:invalid {
   }
 
   #proj-image {
-    width: 296%;
-    height: 448px;
-    background-color: #172b4d;
+    width: 60%;
+    height: 318px;
+   
+  }
+
+  #project-contents{
+    width: 40%;
   }
 
   #projects-grid {
@@ -725,8 +758,10 @@ input:focus:invalid {
   }
 
   .mini-projects {
-    height: 700px;
-    width: 80%;
+    height: 435px;
+    width: 110%;
+  
+   
   }
 
   div.mini-projects p {
@@ -833,6 +868,15 @@ input:focus:invalid {
   #frameworks-list {
     align-items: flex-start;
   }
+  
+  #form-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #form-container h2{
+    margin-bottom: 68px;
+  }
 
   #form-section {
     flex-direction: row;
@@ -852,12 +896,48 @@ input:focus:invalid {
     border-bottom: none;
     align-items: flex-start;
   }
-
-  .inputs {
-    width: 50vw;
+  #contact-form {
+    position: relative;
+    padding: 10px;
+  }
+  
+  
+ 
+  .input2{
+    display: flex;
+    position: absolute;
+    border-bottom: 1px solid #dbd8d7;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-left: 176px;
+    width: 45%;
+    margin-top: 44px;
   }
 
-  #form-section fieldset {
+  .input1{
+    margin-left: -2px;
+    width: 20vw;
+  }
+
+  .inputs{
+    position: relative;
+    margin-left: -20px;
+    width: 100vw;
+    line-height: 1.5rem;
+  }
+   
+hr {
+  margin-top: 114px;
+}
+
+  .social2{
+    margin-left: 103px;
+  }
+
+#form-section fieldset {
     margin: 0;
     gap: 2.5rem;
   }
