@@ -21,7 +21,7 @@ header {
 .myLogo {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  font-style: bold;
+  font-style: normal;
   color: #ffffff;
 }
 
@@ -686,7 +686,7 @@ input:focus:invalid {
   }
 
   .right {
-    margin-right: 70;
+    margin-right: 70px;
   }
 
   #projects {
