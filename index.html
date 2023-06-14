@@ -7,7 +7,7 @@
     <title>Portfolio Desktop Mobile</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
-    
+
 </head>
   <body>
     <!--Header with navbar-->
@@ -63,7 +63,7 @@
     <!--Projects section-->
     <section id="projects">
       <div id="h2-container">
-        <h2 id="pager-head1">My Recent <span>Works</span></h2>
+        <h2 id="pager-head1">My Recent Works</h2>
         <div id="h2-div"></div>
        </div>
         <div id="projects-grid">
@@ -95,10 +95,10 @@
       <div id="about-content">
         <h2 class="abt-title">About me</h2>
         <p id="about-me-p">
-          Hello, I'm a software developer! I can help you build a product,
-          feature or website. Look through some of my work and experience! If
-          you like what you see and have a project you need coded, don't
-          hesitate to contact me.
+          Hello, I'm a software developer! I can help <br> you build a product,
+          feature or website. <br> Look through some of my work and <br> experience! If
+          you like what you see and <br> have a project you need coded, don't
+          <br> hesitate to contact me.
         </p>
         <button type="button" id="resume">Get My Resume</button>
       </div>
@@ -106,26 +106,27 @@
         <div>
           <div class="skills-title">
             <img  src="icons/Rectangle55.png" alt="square" />
-            <h3>Languages</h3>
+            <h3>Language </h3>
           </div>
           <ul id="languages-list">
+            <li>JavaScript</li>
+            <li>Ruby</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>Ruby</li>
-            <li>JavaScript</li>
+           
+            
           </ul>
         </div>
         <div>
           <div class="skills-title">
-            <img src="icons/Rectangle56.png" alt="square" />
+             <img src="icons/Rectangle56.png" alt="square" />
             <h3>Frameworks</h3>
           </div>
           <ul id="frameworks-list">
-            <li>Bootstrap</li>
+            <li>React.js</li>
             <li>Ruby on Rails</li>
             <li>RSPec</li>
             <li>CapyBara</li>
-            <li>Selenium</li>
           </ul>
         </div>
         <div>
@@ -134,30 +135,34 @@
             <h3>Skills</h3>
           </div>
           <ul id="skills-list">
-            <li>Git</li>
-            <li>Github</li>
-            <li>Terminal</li>
-            <li>Codepen</li>
-            <li>Gitlab</li>
-            <li>Codekit</li>
-          </ul>
+            <li>Database Management</li>
+            <li>Version Control</li>
+            <li>CLI</li>
+            <li>API Design</li>
+            <li>Web Development</li>
+           </ul>
         </div>
       </div>
     </section>
     <!--Form section-->
     <section id="form-container">
       <h2>
-        I'm always interested in hearing about new projects, so if you'd like to
-        chat please get in touch.
+        I'm always interested <br> in hearing about new <br> projects, so if you'd <br> like to chat please <br> get in touch.
       </h2>
       <form action="https://formspree.io/f/mzbowdel" method="POST" id="contact-form">
-        <fieldset> <input class="inputs" type="text" name="full-name" id="fullname" maxlength="30" placeholder="Enter your name" required/>
-          <input class="inputs" type="email" name="email" id="email" placeholder="Email" required/>
-          <textarea name="comments" id="comments" maxlength="500" placeholder="Enter text here"> </textarea>
-        </fieldset>
+        <input class="input1" type="text" name= full-name" id="fullname" maxlength="30" placeholder="Full name"  required/> 
+      
+        <input class="input2" type="text" id="lastname" name="lastname" maxlength="30" placeholder="Last Name" required>
+        <input class="inputs" type="email" name="email" id="email" placeholder="Email adress" required/> 
+        <fieldset><textarea  name="comments" id="comments" maxlength="500" placeholder="Write me something..." rows="4" cols="50"></textarea></fieldset>
+
+         
+         
         <input type="submit" id="submit" name="submit" value="Get in touch" />
       </form>
     </section>
+
+    <hr>
     
     <!--Footer-->
     <footer class="social2">
@@ -167,6 +172,7 @@
       <img  src="icons/vector2.png" alt="hand" />
       <img src="icons/vector3.png" alt="medium" />
     </footer>
+
     <script src="script.js" defer></script>
-  </body>
-</html>
+    </body>
+  </html>
