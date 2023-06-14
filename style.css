@@ -292,14 +292,12 @@ h2 {
 
 #projects {
   padding: 0 1.5rem 6rem 1.5rem;
-  
 }
 
 #projects-grid {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  
 }
 
 #pager-head1 {
@@ -324,8 +322,6 @@ h2 {
 
 #project-contents {
   padding: 0 1rem 0 0.5rem;
-  
-  
 }
 
 #h3-title {
@@ -357,6 +353,7 @@ div.mini-projects p {
   font-size: 1rem;
   line-height: 1.5rem;
   padding: 0 0 0.6rem 0.6rem;
+  overflow-y: hidden;
 }
 
 .lang-1 {
@@ -366,12 +363,12 @@ div.mini-projects p {
   padding: 0.6rem 0.7rem;
   display: inline;
   font-size: 1rem;
-}
+ }
 
 .lang {
   display: flex;
   gap: 0.6rem;
-  margin-top: 1rem;
+  margin-top: 1rem; 
 }
 
 .mini-languages-container {
@@ -388,7 +385,7 @@ div.mini-projects p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-top: 1.5rem;
+  margin-top: 1.5rem;  
 }
 
 .mini-box {
@@ -397,6 +394,7 @@ div.mini-projects p {
   font-size: 1rem;
   padding: 0.6rem 0.7rem;
   background: rgba(255, 255, 255, 0.3);
+  overflow-y: hidden;
 }
 
 /* Buttons */
@@ -410,6 +408,7 @@ button,
   border: none;
   font-size: 1.1rem;
   padding: 0.7rem;
+  overflow-y: hidden;
 }
 
 #btn-1 {
@@ -579,7 +578,7 @@ input:focus:invalid {
 .social2 {
   width: 100%;
   height: 5.5rem;
-  display: flex;
+   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
@@ -604,14 +603,14 @@ input:focus:invalid {
     background-image: url("images/Illustration-header.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 45%;
+    background-size: 40%;
     padding-bottom: 3rem;
 }
 
   #P-Text {
     width: 40rem;
     position: relative;
-    left: 10rem;
+    left: 5rem;
   }
 
   header {
@@ -679,11 +678,15 @@ input:focus:invalid {
   #social-media > ul{
      position: absolute;
      width: 403px;
-    margin-top: -26rem;
-    margin-left: -5rem;
+    margin-top: -21rem;
+    margin-left: -9rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  #social-media > ul > li {
+    padding: 0.3rem;
   }
 
  .right {
@@ -724,9 +727,9 @@ input:focus:invalid {
   }
 
   #proj-image {
-    width: 30%;
-    height: 230px;
-   
+    width: 684px;
+    height: 448px;
+    background-color: blue;
   }
 
   #project-contents{
