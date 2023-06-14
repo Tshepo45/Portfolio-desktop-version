@@ -22,16 +22,16 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#Licence)
 
-# 📖<a name="Portfolio Desktop Version"></a>
+# 📖<a name="Portfolio Desktop Version">Portfolio Desktop Version</a>
 
 ## Project Title
 Portfolio Desktop Version
 
 ## Project Description
-Portfolio Desktop Version that includes a popup menu ,a contact form and it uses different tools such Html,Css,Git and Github with additional JavaScript to manipulate DOM elements.Implemented the popup menu using JavaScript and DOM manipulation.
+Portfolio Desktop Version that includes a contact form and it uses different tools such Html,Css,Git and Github without additional JavaScript to manipulate DOM elements.
 
 ## 🛠 Built With 
-Html Css git github code cloning
+Html Css git 
 
 ## key-features
 To understand how to create UIs adaptable to different screen sizes using media queries.
