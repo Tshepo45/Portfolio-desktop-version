@@ -97,13 +97,13 @@ a {
 
 /* Headline section */
 
-section#container1 {
+#container1 {
   background-color: #1c1a19;
-  background-image: url("images/Illustration-header5.png");
+  background-image: url("images/illustration-header-mobile.png");
   background-repeat: no-repeat;
   background-position: 100% 130%;
   padding: 0 1.2rem 6rem 1.2rem;
-  background-position-y: 25rem;
+  background-position-y: 16rem;
   background-size: 8rem;
 }
 
@@ -601,11 +601,13 @@ input:focus:invalid {
  #container1 {
     height: 100vh;
     background-color: #1c1a19;
-    background-image: url("images/Illustration-header.png");
+    background-image: url(images/Illustration-header.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: 0.2rem;
     background-size: 40%;
     padding-bottom: 3rem;
+       
 }
 
   #P-Text {
