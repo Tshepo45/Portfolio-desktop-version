@@ -687,6 +687,12 @@ input:focus:invalid {
     justify-content: space-between;
   }
 
+  #skills li {
+    width: 100%;
+    margin: 0px 10px;
+    font-size: 0.8rem;
+  }
+
   #social-media > ul > li {
     padding: 0.3rem;
   }
@@ -876,12 +882,6 @@ input:focus:invalid {
     width: 150%;
  }
 
-  #skills li {
-    width: 100%;
-    margin: 0px 10px;
-    font-size: 0.8rem;
-  }
-  
   #skills h3 {
     font-size: 1.2rem;
   }
