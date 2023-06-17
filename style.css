@@ -97,13 +97,13 @@ a {
 
 /* Headline section */
 
-section#container1 {
+#container1 {
   background-color: #1c1a19;
-  background-image: url("images/Illustration-header5.png");
+  background-image: url("images/illustration-header-mobile.png");
   background-repeat: no-repeat;
   background-position: 100% 130%;
   padding: 0 1.2rem 6rem 1.2rem;
-  background-position-y: 25rem;
+  background-position-y: 16rem;
   background-size: 8rem;
 }
 
@@ -141,7 +141,6 @@ h2 {
   align-items: center;
   justify-content: space-around;
   width: 45%;
- 
 }
 
 /* Projects section */
@@ -601,11 +600,13 @@ input:focus:invalid {
  #container1 {
     height: 100vh;
     background-color: #1c1a19;
-    background-image: url("images/Illustration-header.png");
+    background-image: url(images/Illustration-header.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: 0.2rem;
     background-size: 40%;
     padding-bottom: 3rem;
+       
 }
 
   #P-Text {
@@ -686,6 +687,12 @@ input:focus:invalid {
     justify-content: space-between;
   }
 
+  #skills li {
+    width: 100%;
+    margin: 0px 10px;
+    font-size: 0.8rem;
+  }
+
   #social-media > ul > li {
     padding: 0.3rem;
   }
@@ -730,11 +737,10 @@ input:focus:invalid {
   #proj-image {
     width: 684px;
     height: 448px;
-    background-color: blue;
   }
 
   #project-contents{
-    width: 80%;
+    width: 80%;   
   }
 
   #projects-grid {
@@ -866,20 +872,23 @@ input:focus:invalid {
 
   #skills {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: baseline;
-    padding: 6rem 0;
+    padding: 4rem 0;
     margin-left: -5rem;
+   
  }
 
   #skills h3 {
-    margin-bottom: 2rem;
+    font-size: 1.2rem;
   }
+
 
   #languages-list,
   #skills-list,
   #frameworks-list {
-    align-items: flex-start;
+   align-items:flex-start
+       
   }
   
   #form-container {
@@ -912,12 +921,14 @@ input:focus:invalid {
   }
   #contact-form {
     position: relative;
-    padding: 10px;
+    padding: 6px;
+    width: 60%;
+    margin-right: 3rem;
   }
   
 .input2{
     display: flex;
-    position: absolute;
+     position: absolute;
     border-bottom: 1px solid #dbd8d7;
     border-left: none;
     border-top: none;
@@ -946,7 +957,7 @@ hr {
 }
 
   .social2{
-    margin-left: 63px;
+    margin-left: 10rem;
   }
 
 #form-section fieldset {
