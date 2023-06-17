@@ -706,7 +706,7 @@ input:focus:invalid {
     grid-template-columns: 10rem 1fr 10rem;
     grid-template-rows: 1fr 5fr;
     padding: 0 0 10rem 0;
-    margin-left: -94px;
+    margin-left: -134px;
     width: 128%;
   }
 
@@ -730,20 +730,17 @@ input:focus:invalid {
 
   #h2-div {
     height: 1px;
-    width: 170%;
+    width: 100%;
     background-color: #212121;
   }
 
   #proj-image {
     width: 684px;
     height: 448px;
-    background-color: blue;
   }
 
   #project-contents{
-    width: 180%;
-    margin-right: -9rem;
-    
+    width: 80%;   
   }
 
   #projects-grid {
@@ -879,7 +876,7 @@ input:focus:invalid {
     align-items: baseline;
     padding: 4rem 0;
     margin-left: -5rem;
-    width: 150%;
+   
  }
 
   #skills h3 {
@@ -890,9 +887,7 @@ input:focus:invalid {
   #languages-list,
   #skills-list,
   #frameworks-list {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+   align-items:flex-start
        
   }
   
